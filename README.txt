@@ -1,3 +1,7 @@
+Li-Ming的個人網頁，由 HTML5 UP 的 Read Only 模板製作。
+
+原始模板說明文件：
+-----------------------
 Read Only by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
