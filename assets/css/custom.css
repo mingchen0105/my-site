@@ -1,0 +1,54 @@
+#header::-webkit-scrollbar {
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+#header {
+    scrollbar-width: none;
+}
+
+#contactInfo {
+    margin: 1em 0 0;
+}
+
+#contactInfo li {
+    padding: 0;
+    border: 0;
+}
+
+#contactInfo a {
+    color: white;
+}
+
+#contactInfo li::before {
+    margin-right: .5em;
+}
+
+.fa-external-link-alt {
+    margin-left: .5em;
+}
+
+#two p {
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+#two img {
+    width: 100%;
+    max-width: calc(45em/2);
+}
+
+.features section {
+    margin: .5em 0 1.5em;
+}
+
+.codepen {
+    height: 50vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    margin: 1em 0;
+    padding: 1em;
+}

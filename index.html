@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Li-Ming's Homepage</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<section id="header">
+		<header>
+			<span class="image avatar"><img src="images/avatar.jpg" alt="My picture" /></span>
+			<h1 id="logo"><a href="index.html">陳力銘</a></h1>
+			<ul class="alt" id="contactInfo">
+				<li class="icon solid fa-phone"><a href="tel:+886-978902256" target="_blank"
+						rel="noopener noreferrer">0978-902-256</a></li>
+				<li class="icon solid fa-envelope"><a href="mailto:mingchen0105@outlook.com" target="_blank"
+						rel="noopener noreferrer" id="resumeLink">mingchen0105@outlook.com</a>
+				</li>
+			</ul>
+		</header>
+		<nav id="nav">
+			<ul>
+				<li><a href="#one" class="active">關於我</a></li>
+				<li><a href="#two">專案網站</a></li>
+				<li><a href="#three">作品集</a></li>
+				<li><a href="#one" onclick="window.open('https://www.cakeresume.com/mingchen0105')">個人履歷<span
+							class="icon solid fa-external-link-alt"><span class="label">External link</span></span></a>
+				</li>
+			</ul>
+		</nav>
+		<footer>
+			<ul class="icons">
+				<li><a href="https://github.com/mingchen0105" target="_blank" rel="noopener noreferrer"
+						class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+				<li><a href="https://codepen.io/ernie8315/collections/" target="_blank" rel="noopener noreferrer"
+						class="icon brands fa-codepen"><span class="label">CodePen</span></a></li>
+				<!-- <li><a href="https://www.kaggle.com/mingchen0105" target="_blank" rel="noopener noreferrer"
+						class="icon brands fa-codepen"><span class="label">Kaggle</span></a></li> -->
+			</ul>
+		</footer>
+	</section>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<!-- One -->
+			<section>
+				<div class="image main" data-position="center">
+					<img src="images/banner.jpg" alt="" />
+				</div>
+				<div class="container" id="one">
+					<header class="major">
+						<h2>陳力銘</h2>
+						<p>Chen, Li-Ming</p>
+					</header>
+					<ul>
+						<li>3年以上研究機構工作經歷，於國際合作及氣候風險領域研究，執行網站內容維護、資料庫建立需求訪談及公部門計劃報告撰寫等研究支援工作</li>
+						<li>網站技能：以 Python 進行資料分析、利用 Python 或 Node.js 建立網站後台、以 Vue.js 及 React.js 框架設計網站，以及運用 MySQL 建立資料庫等
+							具備規劃及執行SOP、團隊合作、跨部門溝通及問題解決能力</li>
+						<li>資料分析技能：以 NumPy 及 pandas 套件處理原始資料、使用scikit-learn套件執行演算法、以 Matplotlib 及 Plotly 套件將資料視覺化等</li>
+						<li>具備規劃及執行SOP、團隊合作、跨部門溝通及問題解決能力</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- Two -->
+			<section id="two">
+				<div class="container">
+					<h2>專案網站</h2>
+					<article id="seabelt">
+						<h3>1. SeaBelt</h3>
+						<p><span class="image left"><img src="images/work_seabelt.jpeg"
+									alt="" /></span>2023年6-8月於工研院「Fintech AI
+							金融與行銷大數據養成班」的期末團體專題作品，以 Vue.js 框架設計前端，並以 python 、 MySQL 資料庫設計後端及資料分析程式，完成一套 NFT 商品推薦系統。</p>
+						<p>系統具體功能為，抓取知名 NFT 商品公開交易平台 - OpenSea 網站上各商品敘述為分析依據，利用 TF-IDF 方法及 BART
+							模型分析商品的所屬分類及相似商品。使用者可利用 LINE
+							帳號登入網站，並輸入想要尋找的商品類別，系統將推薦符合條件的商品。此外，系統會自動記住使用者的點擊商品紀錄，並適時推薦其他相似的商品。
+						</p>
+						<p>本系統運作於 AWS 雲端上，在建置時使用到 AWS RDS 的 MySQL 資料庫，以及 AWS Lambda 的資料處理程式，最終將網站部署到 AWS Lightsail 服務。
+						</p>
+						<ul class="actions">
+							<li><a href="https://seabelt-service.5gq9uqhh4ljue.ap-northeast-1.cs.amazonlightsail.com/"
+									target="_blank" rel="noopener noreferrer" class="button primary">進入網站（LINE
+									Login）<span class="icon solid fa-external-link-alt"><span class="label">External
+											link</span></span></a>
+							</li>
+							<li><a href="https://seabelt-service.5gq9uqhh4ljue.ap-northeast-1.cs.amazonlightsail.com/noline"
+									target="_blank" rel="noopener noreferrer" class="button">預覽（免帳號登入）<span
+										class="icon solid fa-external-link-alt"><span class="label">External
+											link</span></span></a></li>
+							<li><a href="https://github.com/mingchen0105/seabelt" target="_blank"
+									rel="noopener noreferrer" class="button alt icon brands fa-github">檢視原始碼 <span
+										class="icon solid fa-external-link-alt"><span class="label">External
+											link</span></span></a></li>
+						</ul>
+					</article>
+					<hr>
+					<article id="nsp">
+						<h3>2. 醫衛新南向 產業e連結</h3>
+						<p><span class="image right"><img src="images/work_nsp.jpeg"
+									alt="" /></span>2020-2022年工作期間，負責計畫網站「醫衛新南向 產業e連結」的圖文內容上架及圖表繪製。</p>
+						<p>該網站針對新南向政策目標國家，提供在醫療、衛生領域的研究報告、當地市場現況及政府法規，以利我國政府、廠商及相關協會研擬我國醫衛產業進入當地市場的行銷策略。</p>
+						<ul class="actions">
+							<li><a href="https://nsp.mohw.org.tw/" target="_blank" rel="noopener noreferrer"
+									class="button primary">進入網站<span class="icon solid fa-external-link-alt"><span
+											class="label">External link</span></span></a>
+							</li>
+						</ul>
+						<p>以下將詳細介紹經手過的內容設計：</p>
+						<div class="features">
+							<section>
+								<h4>(1) 臺灣防疫廠商名單</h4>
+								<p>配合原有網站電腦版、手機版，及2020年12月台灣醫療科技展時，以直立式觸控螢幕展示的需要，以HTML + CSS製作具有圖示按鈕切換功能的資料表。</p>
+								<p class="codepen" data-height="480" data-default-tab="result" data-slug-hash="QWENjom"
+									data-preview="true" data-user="ernie8315">
+									<span>See the Pen <a href="https://codepen.io/ernie8315/pen/QWENjom">
+											按鈕式廠商名單</a> by Li-Ming (<a
+											href="https://codepen.io/ernie8315">@ernie8315</a>)
+										on <a href="https://codepen.io">CodePen</a>.</span>
+								</p>
+							</section>
+							<section>
+								<h4>(2) 東協十國來臺就醫比例與大陸地區對比圖</h4>
+								<p>以 Chart.js 製作含有資料標籤的圖表。</p>
+								<p class="codepen" data-height="480" data-default-tab="result" data-slug-hash="ExdMgjM"
+									data-preview="true" data-user="ernie8315">
+									<span>See the Pen <a href="https://codepen.io/ernie8315/pen/ExdMgjM">
+											東協十國來臺就醫比例與大陸地區對比</a> by Li-Ming (<a
+											href="https://codepen.io/ernie8315">@ernie8315</a>)
+										on <a href="https://codepen.io">CodePen</a>.</span>
+								</p>
+							</section>
+							<section>
+								<h4>(3) 新南向政策目標18國地圖</h4>
+								<p>以 D3.js 製作的投影地圖，將特定國家上色，並將臺灣上色及放大，原始檔內可調整地圖投影的參數。</p>
+								<p class="codepen" data-height="480" data-default-tab="result" data-slug-hash="oNaVzZj"
+									data-preview="true" data-user="ernie8315">
+									<span>See the Pen <a href="https://codepen.io/ernie8315/pen/oNaVzZj">
+											新南向政策目標18國地圖</a> by Li-Ming (<a
+											href="https://codepen.io/ernie8315">@ernie8315</a>)
+										on <a href="https://codepen.io">CodePen</a>.</span>
+								</p>
+							</section>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<!-- Three -->
+			<section id="three">
+				<div class="container">
+					<h2>作品集</h2>
+					<p>考取 freeCodeCamp 認證時的作品，包括使用 D3.js 套件繪製的圖表及使用 React.js
+						框架製作的前端小工具。除資料來源為 freeCodeCamp 提供外，UI及程式功能皆為自行設計。</p>
+					<article>
+						<h3>1. 圖表繪製</h3>
+						<p>利用 D3.js 套件繪製以下5種圖表類型：</p>
+						<div class="features">
+							<section>
+								<h4>(1) Scatterplot Graph 散佈圖</h4>
+								<p class="codepen" data-height="480" data-default-tab="result" data-slug-hash="mdOyjye"
+									data-preview="true" data-user="ernie8315">
+									<span>See the Pen <a href="https://codepen.io/ernie8315/pen/mdOyjye">
+											Visualize Data with a Scatterplot Graph</a> by Li-Ming (<a
+											href="https://codepen.io/ernie8315">@ernie8315</a>)
+										on <a href="https://codepen.io">CodePen</a>.</span>
+								</p>
+							</section>
+							<section>
+								<h4>(2) Choropleth Map 區域密度圖</h4>
+								<p class="codepen" data-height="480" data-default-tab="result" data-slug-hash="jOVwEZd"
+									data-preview="true" data-user="ernie8315">
+									<span>See the Pen <a href="https://codepen.io/ernie8315/pen/jOVwEZd">
+											Visualize Data with a Choropleth Map</a> by Li-Ming (<a
+											href="https://codepen.io/ernie8315">@ernie8315</a>)
+										on <a href="https://codepen.io">CodePen</a>.</span>
+								</p>
+							</section>
+							<section>
+								<h4>(3) Treemap Diagram 矩形式樹狀結構圖</h4>
+								<p class="codepen" data-height="480" data-default-tab="result" data-slug-hash="KKNvmEd"
+									data-preview="true" data-user="ernie8315">
+									<span>See the Pen <a href="https://codepen.io/ernie8315/pen/KKNvmEd">
+											Visualize Data with a Treemap Diagram</a> by Li-Ming (<a
+											href="https://codepen.io/ernie8315">@ernie8315</a>)
+										on <a href="https://codepen.io">CodePen</a>.</span>
+								</p>
+							</section>
+							<section>
+								<h4>(4) Heat Map 熱圖</h4>
+								<p class="codepen" data-height="480" data-default-tab="result" data-slug-hash="mdOmMpX"
+									data-preview="true" data-user="ernie8315">
+									<span>See the Pen <a href="https://codepen.io/ernie8315/pen/mdOmMpX">
+											Visualize Data with a Heat Map</a> by Li-Ming (<a
+											href="https://codepen.io/ernie8315">@ernie8315</a>)
+										on <a href="https://codepen.io">CodePen</a>.</span>
+								</p>
+							</section>
+							<section>
+								<h4>(5) Bar Chart 長條圖</h4>
+								<p class="codepen" data-height="480" data-default-tab="result" data-slug-hash="YzpygXB"
+									data-preview="true" data-user="ernie8315">
+									<span>See the Pen <a href="https://codepen.io/ernie8315/pen/YzpygXB">
+											Visualize Data with a Bar Chart</a> by Li-Ming (<a
+											href="https://codepen.io/ernie8315">@ernie8315</a>)
+										on <a href="https://codepen.io">CodePen</a>.</span>
+								</p>
+							</section>
+						</div>
+					</article>
+					<article>
+						<h3>2. 前端小工具</h3>
+						<p>利用 React.js 框架同步資料狀態的便利性，設計以下3種工具：</p>
+						<div class="features">
+							<section>
+								<h4>(1) markdown 語法轉換工具</h4>
+								<p class="codepen" data-height="480" data-default-tab="result" data-slug-hash="zYNyRYr"
+									data-preview="true" data-user="ernie8315"
+									style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+									<span>See the Pen <a href="https://codepen.io/ernie8315/pen/zYNyRYr">
+											Build a Markdown Previewer</a> by Li-Ming (<a
+											href="https://codepen.io/ernie8315">@ernie8315</a>)
+										on <a href="https://codepen.io">CodePen</a>.</span>
+								</p>
+							</section>
+							<section>
+								<h4>(2) 番茄鐘計時器</h4>
+								<p class="codepen" data-height="480" data-default-tab="result" data-slug-hash="YzQdEKM"
+									data-preview="true" data-user="ernie8315"
+									style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+									<span>See the Pen <a href="https://codepen.io/ernie8315/pen/YzQdEKM">
+											Build a 25 + 5 Clock</a> by Li-Ming (<a
+											href="https://codepen.io/ernie8315">@ernie8315</a>)
+										on <a href="https://codepen.io">CodePen</a>.</span>
+								</p>
+							</section>
+							<section>
+								<h4>(3) 簡易計算機</h4>
+								<p class="codepen" data-height="480" data-default-tab="result" data-slug-hash="gOmeoxv"
+									data-preview="true" data-user="ernie8315"
+									style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+									<span>See the Pen <a href="https://codepen.io/ernie8315/pen/gOmeoxv">
+											Build a JavaScript Calculator</a> by Li-Ming (<a
+											href="https://codepen.io/ernie8315">@ernie8315</a>)
+										on <a href="https://codepen.io">CodePen</a>.</span>
+								</p>
+							</section>
+						</div>
+					</article>
+				</div>
+			</section>
+		</div>
+
+		<!-- Footer -->
+		<section id="footer">
+			<div class="container">
+				<ul class="copyright">
+					<li>&copy; 2023 陳力銘 版權所有</li>
+					<li>網頁模板來源：<a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+</body>
+
+</html>
